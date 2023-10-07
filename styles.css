@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+  }
+
+/* Apply CSS Grid to the container */
+.container {
+    padding-top: 15%;
+    display: flex;
+    gap: 10rem;
+  }
+
+.img {
+  width: 100vh;
+  height: 50vh;
+  margin-left: 50vh;
+}
+
+.logo {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.navigation {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-left {
+  background-image: url(./src/icon/arrow-left-thick.png);
+}
+
+.arrow-right {
+  background-image: url(./src/icon/arrow-right-thick.png);
+}
+
+.dot {
+  background-image: url(./src/icon/circle-medium.png);
+}
