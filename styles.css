@@ -12,7 +12,6 @@ body {
   width: 100vh;
   height: 50vh;
   margin-left: 50vh;
-  margin-right: 50vh;
 }
 
 .logo {
@@ -30,6 +29,7 @@ body {
   background-color: aliceblue;
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .arrow-left {
@@ -50,4 +50,12 @@ body {
 
 .disabled {
   display: none;
+}
+
+.unselected {
+  opacity: 0.5;
+}
+
+.selected {
+  opacity: 1;
 }
